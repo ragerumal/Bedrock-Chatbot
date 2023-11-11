@@ -2,6 +2,10 @@
 
 This module requires the following configuration:
 
+- Pre-requisite installation
+   - pip install boto3
+   - pip install langchain
+   - pip install streamlit
 - aws configure --profile "your username"
 - Make sure your required model is approved to use
 
