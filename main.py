@@ -14,13 +14,13 @@ bedrock_client = boto3.client(
     region_name="us-east-1"
 )
 
-modelID = "anthropic.claude-v2"
-
+#modelID = "anthropic.claude-v2"
+modelID = "ai21.j2-ultra-v1"
 
 llm = Bedrock(
     model_id=modelID,
     client=bedrock_client,
-    model_kwargs={"max_tokens_to_sample": 2000,"temperature":0.9}
+    model_kwargs={"maxTokens": 2000,"temperature":0}
 )
 
 def my_chatbot(language,freeform_text):
