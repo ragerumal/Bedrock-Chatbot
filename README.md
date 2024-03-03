@@ -1,4 +1,5 @@
-## Bedrock Geenrative AI handson
+## Bedrock Geenrative AI hands-on
+<img width="434" alt="image" src="https://github.com/ragerumal/Bedrock-Chatbot/assets/126337647/b3e76916-878d-46b4-996d-87cac4463660">
 
 This requires the following configuration:
 
