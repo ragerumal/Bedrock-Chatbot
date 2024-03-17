@@ -3,7 +3,7 @@
 
 This requires the following configuration:
 
-- watch this https://youtu.be/E1-mUfpeRu0
+
 - Pre-requisite installation
    - pip install boto3
    - pip install langchain
